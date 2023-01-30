@@ -6,7 +6,7 @@ public class Main {
         try {
             System.out.println(JsonSerializationUtils.serialize(person));
         } catch(Exception e){
-            System.out.println("Something goes wrong");
+            System.out.println(e.getMessage());
         }
     }
 }
